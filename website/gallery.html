@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #333;
+            color: #fff;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Gallery</h1>
+    </header>
+
+    <div class="gallery">
+        <!-- Change the file names accordingly -->
+        <img src="photos/a.jpg" alt="Photo 1">
+        <img src="photos/c.jpg" alt="Photo 2">
+        <img src="photos/i.jpg" alt="Photo 3">
+        <img src="photos/j.jpg" alt="Photo 4">
+        <img src="photos/l.jpg" alt="Photo 5">
+        <img src="photos/m.jpg" alt="Photo 6">
+        <img src="photos/o.jpg" alt="Photo 7">
+        <img src="photos/q.jpg" alt="Photo 8">
+        <img src="photos/r.jpg" alt="Photo 9">
+        <img src="photos/t.jpg" alt="Photo 10">
+    </div>
+
+</body>
+</html>
