@@ -1,0 +1,40 @@
+#include <stdio.h>
+
+int main()
+{
+  int balance = 1000;
+  int choose , withdraw , deposit;
+  printf("\n\n");
+  printf("1. Check balance \n");
+  printf("2. withdraw balance \n");
+  printf("3. deposit balance \n");
+  printf("4. Exit \n \n");
+  
+  do {
+      printf("Choose any option: ");
+      scanf("%d", &choose);
+      switch (choose)
+	  {
+          case 1:
+          printf("Your balance is : %d $\n", balance);
+          break;
+          
+          case 2:
+          printf("Withdraw balance : \n");
+          scanf("%d", &withdraw);
+          if (withdraw > balance) {
+              printf("Not enough money !\n");
+          }
+          balance = balance - withdraw;
+          break;
+          case 3:
+          printf("Deposit balance : \n");
+          scanf("%d", &deposit);
+          balance = balance + deposit;
+          break;
+       }
+   } while (choose != 4);
+    
+
+    return 0;
+}
