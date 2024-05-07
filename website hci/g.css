@@ -1,0 +1,339 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+header {
+    background-color: #222;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 80px;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.logo {
+    font-size: 2em;
+    color: whitesmoke;
+    cursor: default;
+}
+
+.navigation {
+    margin-left: -300px;
+}
+
+.logo span {
+    color: orange;
+}
+
+.navigation a {
+    font-size: 1.1em;
+    color: gray;
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.navigation a:hover {
+    color: orange;
+}
+
+.btn-talk {
+    color: white;
+    text-decoration: none;
+    padding: 8px 35px;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 500;
+    transition: .3s;
+    margin-right: 100px;
+}
+
+.btn-talk:hover {
+    color: white;
+    background: transparent;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: url(BackgroundEraser_20230919_203051806.jpg);
+    background-size: contain 50px;
+    background-position: right;
+    display: flex;
+    align-items: center;
+    padding: 30px 100px;
+}
+
+.home {
+    background: url(Pizzaa/pizza-4952508_960_720.jpg);
+    background-size: cover;
+    box-shadow: 2px solid gray;
+}
+
+.content {
+    max-width: 500px;
+    color: whitesmoke;
+}
+
+.content h2 {
+    font-size: 3em;
+}
+
+.content h2 span {
+    color: orange;
+}
+
+.content h4 {
+    font-size: 2em;
+}
+
+.content p {
+    padding: 10px 0 40px 0;
+}
+
+
+.img {
+    width: 400px;
+    height: 400px;
+    margin-left: 150px;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+
+.btn-group a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 40px;
+    background: black;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-weight: 500;
+    transition: .3s;
+}
+
+.btn-group a:hover:nth-child(1) {
+    color: black;
+    background: transparent;
+}
+
+.btn-group a:nth-child(2) {
+    color: white;
+    background: black;
+    margin-left: 30px;
+    padding: 10px 30px;
+}
+
+.btn-group a:hover:nth-child(2) {
+    color: black;
+    background: transparent;
+
+}
+
+.social-icons {
+    position: absolute;
+    bottom: 50px;
+}
+
+.social-icons a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    background: black;
+    border-radius: 50%;
+    margin-right: 22px;
+    text-align: center;
+    line-height: 35px;
+    outline: 2px solid orange;
+    transition: .3s;
+}
+
+.social-icons a:hover {
+    transform:  translateY(-5px);
+}
+
+.social-icons a i {
+    color: #fff;
+}
+
+.about-us {
+    display: flex;
+    height: 300px;
+}
+
+.content2 {
+    color: whitesmoke;
+}
+
+
+.info, .info1 {
+    display: flex;
+    justify-content: end;
+}
+
+
+.p {
+    margin: 150px 60px 0px 0px;
+    color: white;
+    font-weight: 400;
+}
+
+.h1 {
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 800;
+    margin-top: 100px;
+    padding-left: 10px;
+}
+
+.h1 span {
+    color: orange;
+}
+
+.About-us {
+    display: flex;
+    justify-content: flex-end;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+
+
+.picture {
+    width: 300px;
+}
+
+.food-name1 {
+    background-color: whitesmoke;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.info {
+    height: 600px;
+    padding: 40px;
+    background-color: #f4f4f4;
+    overflow: hidden; /* Optional: hide overflow content */
+}
+
+
+
+
+/*footer*/
+
+
+footer{
+    background-color: #111;
+}
+.footerContainer{
+    width: 100%;
+    padding: 70px 30px 20px ;
+}
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding:  10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity: 0,9;
+}
+/* Hover affect on social media icon */
+.socialIcons a:hover{
+    background-color: #111;
+    transition: 0.5s;
+}
+.socialIcons a:hover i{
+    color: white;
+    transition: 0.5s;
+}
+.footerNav{
+    margin: 30px 0;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+.footerNav ul li a{
+    color:white;
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    opacity: 1;
+}
+.footerBottom{
+    background-color: #000;
+    padding: 20px;
+    text-align: center;
+}
+.footerBottom p{
+    color: white;
+}
+.designer{
+    opacity: 0.7;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin: 0px 5px;
+}
+@media (max-width: 700px){
+    .footerNav ul{
+        flex-direction: column;
+    } 
+    .footerNav ul li{
+        width:100%;
+        text-align: center;
+        margin: 10px;
+    }
+    .socialIcons a{
+        padding: 8px;
+        margin: 4px;
+    }
+}
+
+
+
+
+
+
+
+
+
